@@ -10,6 +10,9 @@ public class Main {
 
     static void presentPerson( String firstWord, String secondWord, String thirdWord){
         int stringLength = firstWord.length() + secondWord.length()+ thirdWord.length();
-        System.out.println("Combine number of characters: "+stringLength);
+        System.out.println("First word: "+ firstWord.length());
+        System.out.println("Second word: "+secondWord.length());
+        System.out.println("Third word: "+thirdWord.length());
+        System.out.println("Result: "+firstWord.length()+" + "+secondWord.length()+" + "+thirdWord.length()+" = "+stringLength);
     }
 }
