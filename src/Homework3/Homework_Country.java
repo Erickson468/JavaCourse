@@ -62,4 +62,5 @@ public class Homework_Country {
     public void setHighestPoint(double highestPoint) {
         this.highestPoint = highestPoint;
     }
+
 }
