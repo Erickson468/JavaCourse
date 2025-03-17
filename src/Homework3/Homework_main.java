@@ -31,5 +31,4 @@ public class Homework_main {
         System.out.println("Region: " + country2.getRegion());
         System.out.println("Highest Point: " + country2.getHighestPoint() + "m");
     }
-
 }
